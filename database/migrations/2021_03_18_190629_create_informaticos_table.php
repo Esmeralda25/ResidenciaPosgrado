@@ -16,8 +16,6 @@ class CreateInformaticosTable extends Migration
         Schema::create('informaticos', function (Blueprint $table) {
             $table->id();
 
-            
-    
             $table->string('Nonbre');
             $table->string('ApellidoPaterno');
             $table->string('ApellidoMaterno');
